@@ -1,6 +1,7 @@
 package apps.mtawfig.com.sammam;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,10 +19,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        setActions();
     }
 
-    private void getAction()
+    private void setActions()
     {
         fridge = (LinearLayout) findViewById(R.id.fridge);
         fridge.setOnClickListener(this);
@@ -55,9 +56,25 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
 
+        final Intent intent = new Intent(this, LocationActivity.class);
+
         switch (v.getId())
         {
-            
+            case R.id.fridge:
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.putExtra("type", "fridge");
+                startActivity(intent);
+                break;
+            case R.id.ac:
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.putExtra("type", "ac");
+                startActivity(intent);
+                break;
+            case R.id.electronics:
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.putExtra("type", "electronics");
+                startActivity(intent);
+                break;
         }
     }
 }
