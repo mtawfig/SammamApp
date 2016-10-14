@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#37474f"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="2dip"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="2dip"
+                        android:src="@drawable/sammam" />
+
+
+                </LinearLayout>
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/fridge"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني ثلاجات"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/electronics"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني إلكترونيات"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ac"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني تكييف"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/electric"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="كهربجي"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bath"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="سباك"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/smith"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="حداد"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/paint"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="نقاش مباني"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ceramic"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني سيراميك"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cars"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="كهربجي سيارات"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/mechanic"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="ميكانيكي سيارات"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cooker"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني بوتجاز"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/iron"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="مكوجي"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/butcher"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="جزار"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/computer"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني كمبيوتر"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/carpenter"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="نجار"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/cotton"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="منجد قطن"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sitting"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="صيانة أطقم جلوس"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/health"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="عامل صرف صحي"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/chef"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="طباخ"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/digging"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="حفار"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/furniture"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="نقاش أثاث"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <!-- ROW START -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/washing"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="فني غسالات"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/haircut"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/fridge" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="حلاق"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gardener"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="جنايني"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- ROW FINISH -->
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/others"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dip"
+                        android:layout_weight="1"
+
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="2dip"
+                                android:src="@drawable/ac" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="3dip"
+                                android:layout_marginLeft="2dip"
+                                android:layout_marginRight="2dip"
+                                android:layout_marginTop="1dip"
+                                android:text="أخرى"
+                                android:textColor="#fff"
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
