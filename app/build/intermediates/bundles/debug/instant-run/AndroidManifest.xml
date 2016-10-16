@@ -31,10 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="apps.mtawfig.com.sammam.LocationActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar" >
-        </activity>
+        <activity android:name="apps.mtawfig.com.sammam.SelectLocalityActivity" />
     </application>
 
 </manifest>

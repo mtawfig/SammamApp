@@ -1,11 +1,3 @@
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$integer$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$styleable$override.class
+CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\SelectLocalityActivity$override.class
 CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$style$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$layout$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$string$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$mipmap$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$drawable$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$drawable$override.class
-CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\R$id$override.class
+CHANGED,D:\MyGitHub\Sammam\Sammam\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\apps\mtawfig\com\sammam\SelectLocalityActivity$1$override.class

@@ -6,16 +6,32 @@
     android:layoutDirection="rtl"
     android:textDirection="rtl"
     android:orientation="vertical">
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right" />
+        android:layout_gravity="right" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/sammamheader">
+
+        <TextView
+            android:id="@+id/textViewMainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إختار نوع الخدمة"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#000000" />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="0dip"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="2dip"
-        android:layout_weight="8"
         android:orientation="vertical">
 
         <ScrollView
@@ -32,7 +48,7 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <LinearLayout
+                <!--<LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:gravity="center_horizontal"
@@ -46,7 +62,7 @@
                         android:src="@drawable/sammam" />
 
 
-                </LinearLayout>
+                </LinearLayout>-->
 
                 <!-- ROW START -->
                 <LinearLayout
@@ -1156,7 +1172,7 @@
     </LinearLayout>
 
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center">
@@ -1165,6 +1181,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </LinearLayout>
-    </LinearLayout>
+    </LinearLayout>-->
 
 </LinearLayout>

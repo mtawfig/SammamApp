@@ -56,7 +56,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
 
-        final Intent intent = new Intent(this, LocationActivity.class);
+        final Intent intent = new Intent(this, SelectLocalityActivity.class);
 
         switch (v.getId())
         {

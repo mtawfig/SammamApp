@@ -24,6 +24,10 @@
         "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listviewicon.png",
+        "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\src\\main\\res\\drawable\\listviewicon.png"
+    },
+    {
         "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
@@ -108,16 +112,20 @@
         "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sammamheader.png",
+        "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\src\\main\\res\\drawable\\sammamheader.png"
+    },
+    {
         "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\electronics_old.png",
         "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\src\\main\\res\\drawable\\electronics_old.png"
     },
     {
         "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\atm_old.png",
         "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\src\\main\\res\\drawable\\atm_old.png"
-    },
-    {
-        "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "D:\\MyGitHub\\Sammam\\Sammam\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ac.png",

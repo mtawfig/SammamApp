@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:2:1-30:12
 	xmlns:android
 		ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml
 		INJECTED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:5:5-31:19
+ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] D:\MyGitHub\Sammam\Sammam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\MyGitHub\Sammam\Sammam\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\MyGitHub\Sammam\Sammam\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -62,12 +62,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
 		ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:24:27-74
-activity#apps.mtawfig.com.sammam.LocationActivity
-ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:27:9-30:20
-	android:theme
-		ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:28:13-66
+activity#apps.mtawfig.com.sammam.SelectLocalityActivity
+ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:27:9-69
 	android:name
-		ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml:27:19-57
 uses-sdk
 INJECTED from D:\MyGitHub\Sammam\Sammam\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] D:\MyGitHub\Sammam\Sammam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
